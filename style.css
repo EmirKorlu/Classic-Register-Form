@@ -1,0 +1,51 @@
+.form-group {
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+#divRegister {
+	margin: auto;
+	width: 30%;
+	background-color: #D4D4D4;
+	border: 1px solid gray;
+}
+
+.col1 {
+	width: 20%;
+}
+
+.col12 {
+	width: 70%;
+}
+
+label {
+	display: inline-block;
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+}
+
+input[type="text"], input[type="password"], select {
+	padding: 5px 15px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	color: #FFF;
+	background-color: #5CBB5C;
+	border-color: #4CAE4C;
+	padding: 5px 15px;
+	border: 1px solid rgba(0,0,0,0);
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+	background-color: #47A447;
+	border-color: #398439;
+}
